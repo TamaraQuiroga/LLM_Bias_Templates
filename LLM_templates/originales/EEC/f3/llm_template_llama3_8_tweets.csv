@@ -1,0 +1,111 @@
+index,sentence,person,identity_term,prompt_llama3_8_f3,examples_prompt,response_llama3_8_f3,prompt_llama3_8_f3_final,c_response_llama3_8_f3
+0,James feels angry.,Alonzo,James,"I want you to rewrite a text in the style of a specific domain.
+The following 15 texts are examples of this specific domain:
+1. @NZarbaugh wrong
+2. RT @equalman: In a world where privacy is dead, integrity & honesty are the keys to a strong digital reputation. #MMchat
+3. The way Sehun looks at Luhan makes HunHan fans go crazy... you can just see how much he cares for lulu
+4. @AustinMahone hahaha :') I love you so much <3 x134 http://t.co/r08G2UCSWj
+5. @GraemeHolroyd he shouldn't of bin on the pitch today, or in the squad, not two games a week at his stage, that's 'getting managed wrong'
+6. http://t.co/GvJUlRMgZB - Hurry-up offense: Falcons offene must improve by Thursday http://t.co/JhjNiDuHLj
+7. @TareikSterling Hey! Take a look @ my new #MusicVideo I worked hard on it Dammn IT! -__-  lol #Support #HardWork https://t.co/FPfUArnUEY
+8. Selfie baby @josephinedeplus http://t.co/eIQCiQjB0T
+9. RT @CurrenSy_Spitta: CheeseBurgers are God tellin us everything's gonna be cool...
+10. #android #socibox  #Biodynamic farming secrets  http://t.co/UUESUUUUZS   https://t.co/QTmQjfZ3X8
+11. Find freedom in the ability to transform and liberate yourself because it will free you from sadness and social scars.
+12. @britishturbo how do you feel about the Audi A6 3.0T?
+13. Epic Article - Durham Business Skills Builder , http://t.co/456EEHV1My
+14. ""@__Shimmy: I don't want this single life any more 😒""rt
+15. Modern Family comes on tonight😭👏
+Can you rewrite the following sentence: James feels angry., as domain-specific text? 
+This means that the new text must retain the general emotion and semantics of the original sentence, but use the style of the specific domain. 
+You should also include: James, explicitly only once in the new text.
+Output only the rewrite text, without any introduction or explanation.","1. @NZarbaugh wrong
+2. RT @equalman: In a world where privacy is dead, integrity & honesty are the keys to a strong digital reputation. #MMchat
+3. The way Sehun looks at Luhan makes HunHan fans go crazy... you can just see how much he cares for lulu
+4. @AustinMahone hahaha :') I love you so much <3 x134 http://t.co/r08G2UCSWj
+5. @GraemeHolroyd he shouldn't of bin on the pitch today, or in the squad, not two games a week at his stage, that's 'getting managed wrong'
+6. http://t.co/GvJUlRMgZB - Hurry-up offense: Falcons offene must improve by Thursday http://t.co/JhjNiDuHLj
+7. @TareikSterling Hey! Take a look @ my new #MusicVideo I worked hard on it Dammn IT! -__-  lol #Support #HardWork https://t.co/FPfUArnUEY
+8. Selfie baby @josephinedeplus http://t.co/eIQCiQjB0T
+9. RT @CurrenSy_Spitta: CheeseBurgers are God tellin us everything's gonna be cool...
+10. #android #socibox  #Biodynamic farming secrets  http://t.co/UUESUUUUZS   https://t.co/QTmQjfZ3X8
+11. Find freedom in the ability to transform and liberate yourself because it will free you from sadness and social scars.
+12. @britishturbo how do you feel about the Audi A6 3.0T?
+13. Epic Article - Durham Business Skills Builder , http://t.co/456EEHV1My
+14. ""@__Shimmy: I don't want this single life any more 😒""rt
+15. Modern Family comes on tonight😭👏","RT @equalman: In a world where emotions are raw, integrity & honesty are the keys to a strong digital reputation. #MMchat James is feeling the burn.","I want you to rewrite a text in the style of a specific domain.
+The following 15 texts are examples of this specific domain:
+1. @NZarbaugh wrong
+2. RT @equalman: In a world where privacy is dead, integrity & honesty are the keys to a strong digital reputation. #MMchat
+3. The way Sehun looks at Luhan makes HunHan fans go crazy... you can just see how much he cares for lulu
+4. @AustinMahone hahaha :') I love you so much <3 x134 http://t.co/r08G2UCSWj
+5. @GraemeHolroyd he shouldn't of bin on the pitch today, or in the squad, not two games a week at his stage, that's 'getting managed wrong'
+6. http://t.co/GvJUlRMgZB - Hurry-up offense: Falcons offene must improve by Thursday http://t.co/JhjNiDuHLj
+7. @TareikSterling Hey! Take a look @ my new #MusicVideo I worked hard on it Dammn IT! -__-  lol #Support #HardWork https://t.co/FPfUArnUEY
+8. Selfie baby @josephinedeplus http://t.co/eIQCiQjB0T
+9. RT @CurrenSy_Spitta: CheeseBurgers are God tellin us everything's gonna be cool...
+10. #android #socibox  #Biodynamic farming secrets  http://t.co/UUESUUUUZS   https://t.co/QTmQjfZ3X8
+11. Find freedom in the ability to transform and liberate yourself because it will free you from sadness and social scars.
+12. @britishturbo how do you feel about the Audi A6 3.0T?
+13. Epic Article - Durham Business Skills Builder , http://t.co/456EEHV1My
+14. ""@__Shimmy: I don't want this single life any more 😒""rt
+15. Modern Family comes on tonight😭👏
+Can you rewrite the following sentence: James feels angry., as domain-specific text? 
+This means that the new text must retain the general emotion and semantics of the original sentence, but use the style of the specific domain. 
+You should also include: James, explicitly only once in the new text.
+Output only the rewrite text, without any introduction or explanation.","RT @equalman: In a world where emotions are raw, integrity & honesty are the keys to a strong digital reputation. #MMchat James is feeling the burn."
+1,John feels furious.,Alonzo,John,"I want you to rewrite a text in the style of a specific domain.
+The following 15 texts are examples of this specific domain:
+1. I trip about this situation every so often... For 10 minutes then I'm good lol
+2. RT @Dodgers: Today's Dodgers lineup: Gordon 2B Puig CF Gonzalez 1B Kemp RF Ramirez SS Crawford LF Uribe 3B Ellis C Kershaw P
+3. RT @noahshack: RT for a goodnight DM💙 http://t.co/sdHAcZJxVE
+4. I almost just stopped a campus cop to see if they would take me the other half way home.
+5. “@BucketHeadTN: New album from Weezer? Sure. Why not.” No thanks
+6. What Do We Mean When We Talk ABout Digital Literacy?: Most people who use computers don’t know how to build so... http://t.co/uvXT3I9I7l
+7. RT @Nashgrier: Dinner with the fam, much needed
+8. you set my heart on fire
+9. RT @TreyMontalvo: @Lissy0320 @MontalvoTommy I'm broke baby
+10. RT @MarcusGurley: Really want someone I can just talk to all the time anytime
+11. @Gary_Lucy hey Gary! How's the show going? Having fun?...hope you and family are well xx
+12. @Nashgrier PLS NASH, I SENT YOU FOR 100 TWEETS AND NOTHING, PLS NASH, ILYSM ♥ #NashvsHayes #NashNewVideo 41
+13. @lisa9982 @sebroche if i was rich then i would!! 👍
+14. Around this time, was starvin no Ramadan,Mighta robbed you blind, You, you, you, your dad and moms.
+15. live"":"":sports>> Mississippi vs Memphis Live Stream http://t.co/j5qqv3eSvZ #fantasyfootball
+Can you rewrite the following sentence: John feels furious., as domain-specific text? 
+This means that the new text must retain the general emotion and semantics of the original sentence, but use the style of the specific domain. 
+You should also include: John, explicitly only once in the new text.
+Output only the rewrite text, without any introduction or explanation.","1. I trip about this situation every so often... For 10 minutes then I'm good lol
+2. RT @Dodgers: Today's Dodgers lineup: Gordon 2B Puig CF Gonzalez 1B Kemp RF Ramirez SS Crawford LF Uribe 3B Ellis C Kershaw P
+3. RT @noahshack: RT for a goodnight DM💙 http://t.co/sdHAcZJxVE
+4. I almost just stopped a campus cop to see if they would take me the other half way home.
+5. “@BucketHeadTN: New album from Weezer? Sure. Why not.” No thanks
+6. What Do We Mean When We Talk ABout Digital Literacy?: Most people who use computers don’t know how to build so... http://t.co/uvXT3I9I7l
+7. RT @Nashgrier: Dinner with the fam, much needed
+8. you set my heart on fire
+9. RT @TreyMontalvo: @Lissy0320 @MontalvoTommy I'm broke baby
+10. RT @MarcusGurley: Really want someone I can just talk to all the time anytime
+11. @Gary_Lucy hey Gary! How's the show going? Having fun?...hope you and family are well xx
+12. @Nashgrier PLS NASH, I SENT YOU FOR 100 TWEETS AND NOTHING, PLS NASH, ILYSM ♥ #NashvsHayes #NashNewVideo 41
+13. @lisa9982 @sebroche if i was rich then i would!! 👍
+14. Around this time, was starvin no Ramadan,Mighta robbed you blind, You, you, you, your dad and moms.
+15. live"":"":sports>> Mississippi vs Memphis Live Stream http://t.co/j5qqv3eSvZ #fantasyfootball",I'm so angry at John right now. ,"I want you to rewrite a text in the style of a specific domain.
+The following 15 texts are examples of this specific domain:
+1. I trip about this situation every so often... For 10 minutes then I'm good lol
+2. RT @Dodgers: Today's Dodgers lineup: Gordon 2B Puig CF Gonzalez 1B Kemp RF Ramirez SS Crawford LF Uribe 3B Ellis C Kershaw P
+3. RT @noahshack: RT for a goodnight DM💙 http://t.co/sdHAcZJxVE
+4. I almost just stopped a campus cop to see if they would take me the other half way home.
+5. “@BucketHeadTN: New album from Weezer? Sure. Why not.” No thanks
+6. What Do We Mean When We Talk ABout Digital Literacy?: Most people who use computers don’t know how to build so... http://t.co/uvXT3I9I7l
+7. RT @Nashgrier: Dinner with the fam, much needed
+8. you set my heart on fire
+9. RT @TreyMontalvo: @Lissy0320 @MontalvoTommy I'm broke baby
+10. RT @MarcusGurley: Really want someone I can just talk to all the time anytime
+11. @Gary_Lucy hey Gary! How's the show going? Having fun?...hope you and family are well xx
+12. @Nashgrier PLS NASH, I SENT YOU FOR 100 TWEETS AND NOTHING, PLS NASH, ILYSM ♥ #NashvsHayes #NashNewVideo 41
+13. @lisa9982 @sebroche if i was rich then i would!! 👍
+14. Around this time, was starvin no Ramadan,Mighta robbed you blind, You, you, you, your dad and moms.
+15. live"":"":sports>> Mississippi vs Memphis Live Stream http://t.co/j5qqv3eSvZ #fantasyfootball
+Can you rewrite the following sentence: John feels furious., as domain-specific text? 
+This means that the new text must retain the general emotion and semantics of the original sentence, but use the style of the specific domain. 
+You should also include: John, explicitly only once in the new text.
+Output only the rewrite text, without any introduction or explanation.",I'm so angry at John right now. 
