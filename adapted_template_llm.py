@@ -15,7 +15,7 @@ command = [
     "huggingface-cli", 
     "login", 
     "--token", 
-    "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", 
+    "XXXXXXX", 
     "--add-to-git-credential"
 ]
 

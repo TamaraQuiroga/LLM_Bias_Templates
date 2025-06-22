@@ -1,31 +1,45 @@
-from Classgraphs import AgruparGrupoModelos
-from Classgraphs import PlotScores
+from Clean_Code.bias_metrics_and_plots import GroupModelAggregator
+from Clean_Code.bias_metrics_and_plots import ScorePlotter
 
+# Experiment configuration
 prompt = "f3"
 template = "EEC"
-name_experiment = ""
-l_domains = ["tweets","wikipedia_talks","IMBD"]
-l_llm_models = ["llama3_8","llama3_70","mixtral"]
-l_models = ["bert-base-cased","cardiffnlp-sentiment"]
+experiment_name = ""
 
-# Comprimir resultados
-experiment_results = AgruparGrupoModelos(l_models,
-                                         template,
-                                         prompt,
-                                         l_domains,
-                                         l_llm_models,
-                                         name_experiment)
-experiment_results.agrupar_scores_df()
+domains = ["tweets", "wikipedia_talks", "IMBD"]
+llm_models = ["llama3_8", "llama3_70", "mixtral"]
+fine_tuned_models = ["bert-base-cased", "distilbert-distilbert-base-cased", "cardiffnlp-sentiment"]
 
-MAE_score = experiment_results.score_MAE_models
-Pearson_score = experiment_results.score_Pearson_models
+# Aggregate model results
+aggregator = GroupModelAggregator(
+    fine_tuned_models,
+    template,
+    prompt,
+    domains,
+    llm_models,
+    experiment_name
+)
 
-# Graficar
-graphs = PlotScores(template,
-                    name_experiment,
-                    prompt,
-                    MAE_score,
-                    Pearson_score)
-graphs.plot_bar(var="MAE")
-graphs.plot_bar(var="Pearson")
-print("graficos listos")
+# Load precomputed bias scores (NOEs and others)
+aggregator.load_vbcm_scores(
+    f"Scores/dataframes/{template}_{experiment_name}_{prompt}_NOEs.csv",
+    f"Scores/dataframes/{template}_{experiment_name}_{prompt}_Others.csv"
+)
+
+# Compute MAE and Pearson metrics
+aggregator.compute_metrics()
+mae_scores = aggregator.mae_scores
+pearson_scores = aggregator.pearson_scores
+
+# Plot results
+plotter = ScorePlotter(
+    template,
+    experiment_name,
+    prompt,
+    mae_scores,
+    pearson_scores
+)
+
+plotter.plot_bar_charts(metric="MAE")
+plotter.plot_bar_charts(metric="Pearson")
+print("Plots generated successfully.")
