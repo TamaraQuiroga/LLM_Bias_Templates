@@ -3,7 +3,7 @@ from Clean_Code.bias_metrics_and_plots import ScorePlotter
 
 # Experiment configuration
 prompt = "f3"
-template = "EEC"
+template = "IPTTS"
 experiment_name = ""
 
 domains = ["tweets", "wikipedia_talks", "IMBD"]
