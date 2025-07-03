@@ -8,6 +8,7 @@ from pathlib import Path
 import time
 import sys
 
+# Part of this code was based on https://github.com/ascamara/ml-intersectionality
 # Seed para reproducibilidad
 SEED = 42
 np.random.seed(SEED)
